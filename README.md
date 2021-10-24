@@ -6,6 +6,7 @@ Environment
 * ROS2 Foxy
 * OpenCV 4.2.0
 * Python 3.8.10
+* vision_opencv - https://github.com/ros-perception/vision_opencv
 
 Applications
 * face_detection.py
