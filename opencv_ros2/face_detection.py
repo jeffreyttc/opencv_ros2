@@ -12,7 +12,7 @@ from cv_bridge import CvBridge # Package to convert between ROS and OpenCV Image
 import cv2 # OpenCV library
 
 # Load the cascade
-face_cascade = cv2.CascadeClassifier('/home/whale/dev_ws/src/cv_basics/cv_basics/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
  
 class FaceDetection(Node):
   """
