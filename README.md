@@ -12,8 +12,10 @@ Applications
 * face_detection
 
 Camera
-* usb_cam
-* ros2 run astra_camera astra_camera_node (Orbbec Astra)
+* Webcam
+* 
+* Orbbec Astra
+* ros2 run astra_camera astra_camera_node
 * /image /depth
 * ros2 run image_tools showimage --ros-args --remap image:=/image -p reliability:=best_effort
 
