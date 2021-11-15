@@ -9,11 +9,14 @@ Environment
 * vision_opencv - https://github.com/ros-perception/vision_opencv/tree/ros2
 
 Applications
+* sub
+* take_photo
 * face_detection
+* camshift
+* qrcode_detector
 
 Camera
 * Webcam
-* 
 * Orbbec Astra
 * ros2 run astra_camera astra_camera_node
 * /image /depth
