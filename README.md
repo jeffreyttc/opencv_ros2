@@ -16,13 +16,14 @@ Applications
 * qrcode_detector
 
 Camera
-* Webcam
+
+Webcam
 * ros2 run usb_cam usb_cam_node_exe
 * /image_raw
 * ros2 launch usb_cam demo_launch.py
 * ros2 run rqt_image_view rqt_image_view
 
-* Orbbec Astra
+Orbbec Astra
 * ros2 run astra_camera astra_camera_node
 * /image /depth
 * ros2 run image_tools showimage --ros-args --remap image:=/image -p reliability:=best_effort
