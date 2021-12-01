@@ -5,6 +5,8 @@ Environment
 * Ubuntu 20.04
 * ROS2 Foxy
 * OpenCV 4.2.0
+  * pip install opencv-python
+  * pip install numpy
 * Python 3.8.10
 * vision_opencv - https://github.com/ros-perception/vision_opencv/tree/ros2
 
